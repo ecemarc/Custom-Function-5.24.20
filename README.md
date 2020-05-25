@@ -1,5 +1,3 @@
-# Custom-Function-5.24.20
-
 
 
 def function(c):
@@ -21,27 +19,41 @@ print("--------------------")
 score = 87.5
 
 
-def numeric_to_letter_grade(score):
+def grade(score):
     if (score >= 93):
-        print("A")
+        return("A")
     elif (score <= 92 >= 89):
-        print("A-")
+        return("A-")
     elif (score <= 88 >= 85):
-        print("B+")
+        return("B+")
 
 
 print("THE NUMERIC SCORE IS:", score)
 
-grade = numeric_to_letter_grade(score)
+
+grade = grade(score)
+
+score = 87.5
+
 
 print("THE LETTER-GRADE EQUIVALENT IS:", grade)
+
+
+# def numeric_to_letter_grade(score):
+#     if (score >= 93):
+#         print("A")
+#     elif (score <= 92 >= 89):
+#         print("A-")
+#     elif (score <= 88 >= 85):
+#         print("B+")
 
 
 # TODO: define temperature conversion function here
 
 # TODO: define gradebook function here
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    print("--------------------")
-    print("CUSTOM FUNCTIONS EXERCISE...")
+#     print("--------------------")
+#     print("CUSTOM FUNCTIONS EXERCISE...")
+
